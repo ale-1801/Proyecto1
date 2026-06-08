@@ -1,0 +1,34 @@
+Proyecto login con arquitectura Backend sirve frontend
+Framework Flask
+Jinja --- herencia de codigo (no repetir codigo)
+
+
+tree /f  ----- Arbol de directorios (carpetas y proyectos)
+
+
+crear carpetas y archivos del proyecto a partir de la estructura.
+
+C:.
+│   .env
+│   app.py
+│   requeriments.txt
+│   teoria.txt
+│  
+├───Static
+│       styles.css
+│      
+└───templates
+        base.html
+        dashboard.html
+        login.html
+        register.html
+       
+
+control - shift p
+extencion create directory structure
+
+crear entorno
+python -m venv (env/venv)
+
+Activar el entorno
+Activate.ps1 ubicado
