@@ -43,6 +43,7 @@ def home():
 # Productos
 @app.route("/productos")
 def productos():
+    print("Entrando a productos")
     return render_template("productos.html")
 
 # Michi Café
