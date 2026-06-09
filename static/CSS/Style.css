@@ -1,0 +1,45 @@
+.neko-card{
+    background-color: #F6E7DB;
+    border: 3px solid #7BA05B;
+    border-radius: 25px;
+}
+
+.neko-card h2{
+    color: #5e975f;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+label{
+    color: #5e975f;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.form-control{
+    border: 2px solid #7BA05B;
+    border-radius: 15px;
+}
+
+.form-control:focus{
+    border-color: #5e975f;
+    box-shadow: none;
+}
+
+.neko-btn{
+    background-color: #6B8E6E;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.neko-btn:hover{
+    background-color: #5e975f;
+    color: white;
+}
+
+.alert{
+    border-radius: 15px;
+}

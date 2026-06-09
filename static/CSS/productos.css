@@ -1,0 +1,122 @@
+
+body{ 
+    background-color: #F5EBDD;
+    margin: 0;
+}
+
+h1{
+    color: #5e975f;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p{
+    color: #5e975f;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+nav{
+ background-color: #6B8E6E;
+    color: rgb(254, 255, 254);
+    width: 100%;
+    z-index: 10;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: 650;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #FFFDF9; /* blanco suave */
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #EADBC8; /* beige cálido */
+}
+.menu{
+  
+    padding: 60px 20px;
+}
+
+/* cajas de productos */ 
+
+.productos{
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.productos h2{
+    color: #5e975f;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.contenedor-productos{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card-producto{
+   
+
+    background-color: #FFFDF9;
+    width: 280px;
+    padding: 25px;
+    border-radius: 25px;
+    border: 3px solid #6B8E6E;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.card-producto:hover{
+    transform: translateY(-8px);
+}
+
+.card-producto img{
+     width: 100%;
+    height: 280px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.card-producto h3{
+    color: #5e975f;
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.card-producto p{
+    color: #7D848C;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.card-producto button{
+    background-color: #6B8E6E;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card-producto button:hover{
+    background-color: #5e975f;
+}
