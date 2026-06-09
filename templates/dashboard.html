@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="card shadow neko-card">
+
+    <div class="card-body text-center">
+
+        <h2>
+            🐱 Bienvenido {{ username }}
+        </h2>
+
+        <p class="mt-3">
+            Gracias por formar parte de la comunidad NekoLeaf 🌿
+        </p>
+
+        <a href="{{ url_for('logout') }}" class="btn neko-btn mt-3">
+            Cerrar sesión
+        </a>
+
+    </div>
+
+</div>
+
+{% endblock %}
