@@ -46,9 +46,9 @@ def productos():
     return render_template("productos.html")
 
 # Michi Café
-@app.route("/Michicafe")
+@app.route("/michicafe")
 def michicafe():
-    return render_template("Michicafe.html")
+    return render_template("michicafe.html")
 
 # Registro
 @app.route("/register", methods=["GET", "POST"])
