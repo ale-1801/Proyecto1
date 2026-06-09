@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NekoLeaf</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='CSS/index.css') }}">
+</head>
+<body>
+ 
+    <header>
+    <nav>
+        <ul>
+            <li>
+                <img id="Logo"
+                     src="{{ url_for('static', filename='Media/LogoPrincipal.png') }}"
+                     alt="Logo"
+                     width="150"
+                     height="150">
+            </li>
+
+            <li><a href="{{ url_for('home') }}">Inicio</a></li>
+
+            <li><a href="{{ url_for('productos') }}">Productos</a></li>
+
+            <li><a href="{{ url_for('Michicafe') }}">Michi Café</a></li>
+
+            <li><a href="{{ url_for('register') }}">Registro</a></li>
+        </ul>
+    </nav>
+</header>
+
+<h1 class="Titulo">Neko Leaf</h1>
+<h2 class="subtitulo">¡Conoce nuestra historia!</h2>
+<p class="historia">
+
+NekoLeaf nace del amor por los gatos, la naturaleza y los espacios acogedores. 🌿🐱
+
+Somos una eco store y café inspirado en crear experiencias cálidas mientras apoyamos una causa importante: ayudar a refugios felinos.
+Cada producto y cada compra aporta un granito de arena para mejorar la vida de muchos michitos.
+
+Queremos construir una comunidad donde las personas puedan disfrutar, conectar y apoyar de forma consciente.
+
+</p>
+
+<section class="jefes">
+
+    <h2>¡Conoce a nuestros jefes!</h2>
+
+    <div class="contenedor-jefes">
+
+        <div class="card-jefe">
+            <img src="{{ url_for('static', filename='Media/Milo.png') }}" alt="Milo">
+            <h3>Milo</h3>
+            <p>CEO de NekoLeaf</p>
+        </div>
+
+        <div class="card-jefe">
+            <img src="{{ url_for('static', filename='Media/Kira.png') }}" alt="Kira">
+            <h3>Kira</h3>
+            <p>Control de calidad y encargada de la experiencia del cliente.</p>
+        </div>
+
+        <div class="card-jefe">
+            <img src="{{ url_for('static', filename='Media/Figaro.png') }}" alt="Fígaro">
+            <h3>Fígaro</h3>
+            <p>Director creativo.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+</body>
+</html>
